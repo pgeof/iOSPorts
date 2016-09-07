@@ -43,8 +43,8 @@ PACKAGE_DIR				= $(PACKAGE_TARNAME)-$(PACKAGE_VERSION)
 PACKAGE_FILEEXE				= tar.gz
 PACKAGE_FILE				= $(PACKAGE_DIR).$(PACKAGE_FILEEXE)
 PACKAGE_MD5				= $(PACKAGE_FILE).md5
-PACKAGE_URL				= http://www.openssl.org/source/$(PACKAGE_FILE)
-PACKAGE_WEBSITE				= http://www.openssl.org/
+PACKAGE_URL				= https://www.openssl.org/source/$(PACKAGE_FILE)
+PACKAGE_WEBSITE				= https://www.openssl.org/
 PACKAGE_LICENSE_FILE			= build-aux/LICENSE
 
 SRCROOTDIR = ../../..
@@ -70,5 +70,8 @@ clean-local:
 
 distclean-local:
 	/bin/rm -Rf build
+
+install:
+
 
 # end of Makefile

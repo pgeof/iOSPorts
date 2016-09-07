@@ -96,4 +96,7 @@ clean-local:
 distclean-local:
 	/bin/rm -Rf build
 
+install:
+
+
 # end of Makefile

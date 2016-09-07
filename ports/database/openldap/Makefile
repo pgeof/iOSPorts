@@ -83,4 +83,6 @@ clean-local:
 
 distclean-local:
 
+install:
+
 # end of Makefile
